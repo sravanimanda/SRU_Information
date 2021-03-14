@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="StudentInformation" max_length="40" name="x_594730_sru1_studentinformation" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="40" name="department" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email ID" max_length="40" name="email_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="name of the student" max_length="40" name="name_of_the_student" type="string"/>
+        <element label="phone no" max_length="40" name="phone_no" type="phone_number_e164"/>
+        <element label="photo" max_length="40" name="photo" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" label="roll no" max_length="40" name="roll_no" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-14 14:33:10</sys_created_on>
+        <sys_id>c9029ec7db32201006db7a61399619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_594730_sru1_studentinformation.x_594730_sru1.studentinformation</sys_name>
+        <sys_package display_value="SRU1" source="x_594730_sru1">52ef8e07db32201006db7a6139961995</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU1">52ef8e07db32201006db7a6139961995</sys_scope>
+        <sys_security_acl display_value="x_594730_sru1_studentinformation">81029ec7db32201006db7a61399619be</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c9029ec7db32201006db7a61399619c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-14 14:33:10</sys_updated_on>
+        <sys_user_role display_value="x_594730_sru1.studentinformation" name="x_594730_sru1.studentinformation">3920de43db32201006db7a6139961968</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
