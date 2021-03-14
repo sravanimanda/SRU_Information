@@ -2,8 +2,14 @@
     <element label="StudentInformation" max_length="40" name="x_594730_sru1_studentinformation" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="40" name="department" type="choice">
-            <choice/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="civil" value="civil"/>
+                <element inactive_on_update="false" label="cse" value="-- New choice --"/>
+                <element inactive_on_update="false" label="ece" value="ece"/>
+                <element inactive_on_update="false" label="eee" value="eee"/>
+                <element inactive_on_update="false" label="mech" value="mech"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Email ID" max_length="40" name="email_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="name of the student" max_length="40" name="name_of_the_student" type="string"/>

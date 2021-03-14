@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Visitors" max_length="40" name="x_594730_sru1_visitors" type="collection">
+        <element label="email_address" max_length="40" name="email_address" type="string"/>
+        <element label="indate" max_length="40" name="indate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="intime" max_length="40" name="intime" type="glide_time"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element label="outdate" max_length="40" name="outdate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="outtime" max_length="40" name="outtime" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true" label="phone no" max_length="40" name="phone_no" type="phone_number_e164"/>
+        <element label="purpose of visit" max_length="40" name="purpose_of_visit" type="string"/>
+        <element label="whom to meet" max_length="40" name="whom_to_meet" type="string"/>
+    </element>
+</database>
