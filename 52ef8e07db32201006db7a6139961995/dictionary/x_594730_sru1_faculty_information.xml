@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Faculty Information" max_length="40" name="x_594730_sru1_faculty_information" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Block No" max_length="40" name="blocknumber" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="contact" max_length="40" name="contact" type="phone_number_e164"/>
+        <element label="date of birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dept" mandatory="true" max_length="40" name="dept" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="CSE" sequence="1" value="cse"/>
+                <element inactive_on_update="false" label="ECE" sequence="2" value="ece"/>
+                <element inactive_on_update="false" label="EEE" sequence="3" value="eee"/>
+                <element inactive_on_update="false" label="Civil" sequence="4" value="civil"/>
+                <element inactive_on_update="false" label="Mech" sequence="5" value="mech"/>
+                <element inactive_on_update="false" label="AI and ML" sequence="6" value="ai and ml"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="HOD Name" max_length="32" name="hod_name" reference="sys_user" type="reference"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="hod_name"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
